@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MakeTheChoice</string>
+    <string name="headConfirm">确定</string>
+    <string name="headNext">下一题</string>
+    <string name="typeSingle">单选题</string>
+    <string name="typeMultiple">多选题</string>
+    <string name="rightTitle">正确答案：</string>
+    <string name="questionSwitch">切换题库</string>
+    <string name="dialogTitle">选一个现有的题库开始练习吧！</string>
+    <string name="dialogDismiss">取消</string>
+</resources>

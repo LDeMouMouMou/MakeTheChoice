@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/choice_gap"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/shape_main"
+    android:elevation="1dp">
+
+    <include layout="@layout/layout_type" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorChoiceBorder"/>
+
+    <TextView
+        android:id="@+id/main_questionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_margin_horizontal"
+        android:layout_marginRight="@dimen/text_margin_horizontal"
+        android:layout_marginTop="@dimen/text_margin_vertical"
+        android:layout_marginBottom="@dimen/text_margin_vertical"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:lineSpacingMultiplier="1.5"
+        android:textColor="@color/colorBlack" />
+
+    <ListView
+        android:id="@+id/main_choices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/choice_margin_bottomEnd" >
+
+    </ListView>
+
+    <include layout="@layout/question_switch" />
+
+</LinearLayout>

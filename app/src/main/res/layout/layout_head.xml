@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/head_margin_start"
+        android:layout_marginTop="@dimen/head_margin_top" >
+
+        <Button
+            android:id="@+id/head_confirm"
+            android:background="@drawable/shape_cofirm"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="@dimen/confirm_width"
+            android:layout_height="@dimen/confirm_height"
+            android:layout_gravity="center"
+            android:text="@string/headConfirm"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/head_next"
+            android:background="@drawable/shape_cofirm"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="@dimen/confirm_width"
+            android:layout_height="@dimen/confirm_height"
+            android:layout_gravity="center"
+            android:text="@string/headNext"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp"
+            android:visibility="invisible" />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

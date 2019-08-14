@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="@dimen/choice_gap"
+    android:background="@color/colorWhite" >
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="@dimen/swicth_margin_start"
+        android:background="@drawable/button_switch"
+        android:layout_gravity="center"
+        android:hapticFeedbackEnabled="true"
+        android:contentDescription="@string/questionSwitch"/>
+
+    <Button
+        android:id="@+id/question_switch"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorTextColor"
+        android:text="@string/questionSwitch"
+        android:textSize="15sp"/>
+
+</LinearLayout>
